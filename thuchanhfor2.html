@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+while (true) {
+    total = 0
+    number = parseInt(prompt('Enter a number'));
+    if (number <= 0) {
+        alert('Please try an other number');
+    } else {
+        for (i = 1; i <= number; i++) {
+            total += i
+        }
+        alert('The total is ' + total);
+    }
+}
+</script>
+</body>
+</html>
